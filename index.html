@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make A Chad Foundation</title>
+    <link rel="icon" href="images/icon.png">
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- jQuery and JS bundle w/ Popper.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-dark">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#title"><img src="images/logo.png" alt="Make a Chad Foundation" width="150px"></a></a>
+            <a class="navbar-brand js-scroll-trigger" href="#"><img src="images/logo.png" alt="Make a Chad Foundation" width="150px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +24,10 @@
                         <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+                        <a class="nav-link js-scroll-trigger" href="#effect">How We've Changed The Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#email-signup">How You Can Help</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -32,11 +36,11 @@
             </div>
         </div>
     </nav>
-    <br><br><br><br><br><br>
-    <div class="container">
+    <br><br><br><br><br>
+    <div class="container bg-white p-5">
         <section id="title" class="text-center">
             <h1>Make A Chad Foundation</h1>
-            <p>Helping normie gamers become Chads since 2020</p>
+            <p>Helping normie gamers become Chads since 2020.</p>
         </section>
         <section id="about">
             <div class="text-center">
@@ -44,6 +48,29 @@
             </div>
             <h2>What We Do</h2>
             <p>We here at MCF have been committed to offering noobs a path to a brighter future. A path that doesn't involve rats exit camping or squeakers camping in corners with a .725 shotgun. We believe every gamer should have the opportunity to get a winner winner chicken dinner without being carried by the rest of the team. With your donation, you help us help a flithy casual noob become an overnight TTV, e-sports professional, 2000 IQ, mega poggers, 9000 K/D, Faze worthy, Chad. </p>
+        </section>
+        <section id="effect">
+            <h2>How We've Changed The Game</h2>
+            <img src="images/noob.png" alt="" width="80px" class="float-right p-1">
+                <p>Not too long ago, the gaming community has forever complained about their trash team mates in games like Rainbow 6 seige, Call of Duty, CS:GO, and many others. We found that these complaints are a result of noobs like the one pictured here:</p>
+            <p>These poor noobs need help and guidance in order to become the gamers that they dream to be.</p>
+            <p>At MCF, we take random plebs from all kinds of games and put them through rigorous training that teaches them to play better and more confidently. We do all of this at no charge to the gamer, because most of these gamers couldn't really afford to take the course. We work hand-in-hand with gamers from the very beginning and monitor their progress. As our subjects continue, we make sure to continually increase the difficulty of training. This way, the gamers will be prepared to take on other Chads in the gaming world and win.</p>
+        </section>
+        <section id="email-signup">
+            <h2>How You Can Help A Gamer In Need</h2>
+            <p>Every month, we send out a newsletter that lets our community see into our operations at MCF. With each email provided, we match a day's worth of lessons to a lucky noob in our program. In addition to the newsletter, you can choose to recieve information on how to donate to our lovely program.</p>
+            <form class="card p-3">
+                <div class="form-group">
+                  <label for="email">Newsletter Sign-up:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Recieve donation information in provided email</label>
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Submit</button>
+              </form>
+              <br>
         </section>
     </div>
 </body>
